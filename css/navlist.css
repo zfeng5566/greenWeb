@@ -1,0 +1,33 @@
+.xiala {
+    display: none;
+    text-align: center;
+    background: rgba(255, 255, 255, 1.00);
+    margin: 0 auto;
+    width: auto;
+    text-align: center;
+    border-radius: 3px;
+}
+
+.xiala>li {
+    width: 80px;
+    display: block;
+    color: brown;
+    padding: 5px 10px;
+}
+
+.nav>li:hover .xiala {
+    display: block;
+}
+
+@media screen and (min-width:1024px) {
+    .xiala {
+        position: absolute;
+        top: 45px;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .xiala {
+        position: static;
+    }
+}
